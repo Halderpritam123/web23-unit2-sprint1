@@ -1,0 +1,29 @@
+p,h1,h2,h3,h4,h5,h6{
+    /* font-style: calc();
+    font-size: medium; */
+}
+#main{
+    display: flex;
+    padding: 1em;
+    gap: 2em;
+}
+#options{
+    /* border: 2px solid red; */
+    width: 25%;
+    padding: var(--padding);
+    box-shadow:var(--shadow);
+    border-radius: var(--border-radious);
+}
+#products{
+    /* border: 2px solid blue; */
+    width: 70%;
+    padding: var(--padding);
+    box-shadow:var(--shadow);
+    border-radius: var(--border-radious);
+
+}
+:root {
+    --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    --padding: 0.7em;
+    --border-radious:1%;
+  }
